@@ -1,0 +1,37 @@
+21:41:29 **** Rebuild of configuration Debug for project HackingRaylibs ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackingRaylibs.o" "..\\src\\HackingRaylibs.cpp" 
+g++ -o HackingRaylibs.exe "src\\HackingRaylibs.o" 
+Info: Nothing to build for HackingRaylibs
+Info: Nothing to build for HackingRaylibs
+21:47:11 **** Incremental Build of configuration Debug for project HackingRaylibs ****
+Info: Internal Builder is used for build
+g++ "-IC:\\Users\\widjoyono\\Desktop\\HackingRaylib\\HackingRaylibs" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackingRaylibs.o" "..\\src\\HackingRaylibs.cpp" 
+..\src\HackingRaylibs.cpp:1:10: fatal error: raylib.h: No such file or directory
+    1 | #include "raylib.h"
+      |          ^~~~~~~~~~
+compilation terminated.
+21:47:46 **** Incremental Build of configuration Debug for project HackingRaylibs ****
+Info: Internal Builder is used for build
+g++ "-IC:\\raylib\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackingRaylibs.o" "..\\src\\HackingRaylibs.cpp" 
+g++ "-LC:\\raylib\\src" -o HackingRaylibs.exe "src\\HackingRaylibs.o" -lraylib -lopengl32 -lgdi32 -lwinmm 
+Info: Nothing to build for HackingRaylibs
+Info: Nothing to build for HackingRaylibs
+Info: Nothing to build for HackingRaylibs
+21:50:40 **** Incremental Build of configuration Debug for project HackingRaylibs ****
+Info: Internal Builder is used for build
+g++ "-IC:\\raylib\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackingRaylibs.o" "..\\src\\HackingRaylibs.cpp" 
+g++ "-LC:\\raylib\\src" -o HackingRaylibs.exe "src\\HackingRaylibs.o" -lraylib -lopengl32 -lgdi32 -lwinmm 
+Info: Nothing to build for HackingRaylibs
+21:57:14 **** Clean-only build of configuration Debug for project HackingRaylibs ****
+rm -rf src/HackingRaylibs.d src/HackingRaylibs.o HackingRaylibs.exe 
+21:57:16 **** Rebuild of configuration Debug for project HackingRaylibs ****
+Info: Internal Builder is used for build
+g++ "-IC:\\raylib\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackingRaylibs.o" "..\\src\\HackingRaylibs.cpp" 
+g++ "-LC:\\raylib\\src" -o HackingRaylibs.exe "src\\HackingRaylibs.o" -lraylib -lopengl32 -lgdi32 -lwinmm 
+21:57:35 **** Incremental Build of configuration Debug for project HackingRaylibs ****
+Info: Internal Builder is used for build
+g++ "-IC:\\raylib\\src" -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\HackingRaylibs.o" "..\\src\\HackingRaylibs.cpp" 
+g++ "-LC:\\raylib\\src" -o HackingRaylibs.exe "src\\HackingRaylibs.o" -lraylib -lopengl32 -lgdi32 -lwinmm 
+Info: Nothing to build for HackingRaylibs
+Info: Nothing to build for HackingRaylibs
